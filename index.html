@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Workout tracker form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- multistep form -->
+<form id="msform">
+  <!-- progressbar -->
+  <ul id="progressbar">
+    <li class="active">Set 1</li>
+    <li>Set 2</li>
+    <li>Set 3</li>
+    <li>Set 4</li>
+  </ul>
+  <!-- fieldsets -->
+  <fieldset>
+    <h2 class="fs-title">Set 1</h2>
+    <h3 class="fs-subtitle">These are first workouts</h3>
+    <div class="input-box"  >
+      <label>Jumping jacks - (required 10)</label>
+      <img src="assets/gifs/jumping-jacks.gif" />
+    <input type="number" name="jumping-jacks-1" placeholder="10" />
+
+    </div>
+
+    <div class="input-box"  >
+      <label>Squats - (required 10) </label>
+      <img src="assets/gifs/squats.gif" />
+
+      <input type="number" name="squats-1" placeholder="10" />  
+    </div>
+    <div class="input-box"  >
+      <label>Situps - (required 10) </label>
+      <img src="assets/gifs/situps.gif" />
+
+      <input type="number" name="situps-1" placeholder="10" />
+  
+    </div>  
+    <div class="input-box"  > 
+      <label>Cat & Camel - (required 10) </label>
+      <img src="assets/gifs/cat-camel.gif" />
+
+      <input type="number" name="cat-n-camel-1" placeholder="10" />
+  
+
+    </div>
+
+
+    <input type="button" name="next" class="next action-button" value="Next" />
+
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">Set 2</h2>
+    <h3 class="fs-subtitle">These are second workouts</h3>
+    <div class="input-box"  > 
+      <label>Jumping jacks - (required 10)</label>
+      <img src="assets/gifs/jumping-jacks.gif" />
+      <input type="number" name="jumping-jacks-2" placeholder="10" />
+    </div>  
+
+    <div class="input-box"  > 
+      <label>Squats - (required 10)</label>
+      <img src="assets/gifs/squats.gif" />
+      <input type="number" name="squats-2" placeholder="10" />
+    </div>
+
+    <div class="input-box"  > 
+      <label>Both Leg Raises - (required 10) </label>
+      <img src="assets/gifs/leg raises.gif" />
+      <input type="number" name="both-leg-raises-2" placeholder="10" />
+  
+
+     </div> 
+    <input type="button" name="next" class="next action-button" value="Next" />
+
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">Set 3</h2>
+    <h3 class="fs-subtitle">These are third workouts</h3>
+    <label>Situps - (required 10)</label>
+    <input type="number" name="situps-3" placeholder="10" />
+    <label>Single Leg Raises - (required 10) </label>
+    <input type="number" name="single-leg-raises-3" placeholder="10" />
+    <label>Heel Touches - (required 10)</label>
+    <input type="number" name="heel-touches-4" placeholder="10" />
+
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">Set 4</h2>
+    <h3 class="fs-subtitle">These are our last set of workouts</h3>
+    <label>Hip Raise - (required 10) </label>
+    <input type="number" name="hip-raises-4" placeholder="10" />
+    <label>Pranam Raise - (required 10) </label>
+    <input type="number" name="pranam-raises-4" placeholder="10" />
+    <label>Knee Straightening raises - (required 10) </label>
+    <input type="number" name="knee-straight-4" placeholder="10" />
+
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+
+  </fieldset>
+</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
